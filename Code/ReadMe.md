@@ -50,4 +50,9 @@ The frame will start capturing photos when key 'c' is pressed and will automatic
 
 We can manually stop the image capturing process by clicking the key 'q'
 
+
+Module 2 - This module is based on OpenCV. Here we Preprocess the captured image which is saved in dataset folder.
   
+First we need to create a folder named "Preprocessed" in the current directory and a folder named "Train" inside "Preprocessed" folder.
+
+Code of Module 2 will take images from dataset folder and apply grayscale and convert it into binary image consisting of only black and white.
